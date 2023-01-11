@@ -2,7 +2,7 @@ from Simplex import *
 from Problem_set import *
 
 # Test
-(LP_1,LP_2) = solve_LP(*dataset(9))
+(LP_1,LP_2) = solve_LP(*dataset(2))
 # LP_2.plot_cost_trace()
 # LP_1.plot_cost_trace()
 
