@@ -10,7 +10,7 @@
 
 ### Example
 * Example 3.8
-\begin{align*}
+$$\begin{align*}
     \text{minimize} \quad       &  \sum_{i \in F} \left( t_{i} - h_{i} \right)    \\
     \text{subject to} \quad     &  \sum_{k \in G} x_{ik} = 1, \quad \forall i \in F,  \\
                                 &  t_{i} \geq h_{i}, \quad \forall i \in F,\\
@@ -18,3 +18,4 @@
                                 & x_{ik}\in \{0,1\}, \quad \forall i \in F, k \in G,\\
                                 & t_{i} \geq 0,\ \quad \forall i \in F.
 \end{align*}
+$$
